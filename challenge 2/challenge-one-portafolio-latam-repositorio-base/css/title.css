@@ -1,0 +1,143 @@
+.title {
+    padding: 16px;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+
+.title__profile{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 140px;
+    padding-left: 5px;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    
+}
+
+.title__bio{
+    text-align: justify;
+    font-size: 22px;
+    color: #464646;
+    width: 90vw;
+    margin-right: 5px;
+
+}
+
+.title__subsection{
+    text-align:justify;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+    width: 95vw;
+}
+
+.title__network{
+    display: flex;
+    text-align: center;
+    padding-left: 5px;   
+    margin-top: 16px; 
+    width: 90vw;   
+}
+
+.title__network__item{
+    display: flex;
+    margin-right: 10px;
+    color: #464646;
+    font-size: 14px;    
+}
+
+@media screen and (min-width:768px) {
+    .title{
+        width: 100vw;
+        padding: 0;
+        height: 210px;
+    }
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .title__profile{
+        height: 146px;
+        width: 146px;
+        margin-top: 40px;
+        margin-right: 15px;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        
+    }
+    .title__container{
+        width: 520px;
+        height: 120px;
+        flex-wrap: nowrap;
+    }
+    .title__bio{
+        width: 524px;
+        height: 52px;
+    }
+    .title__subsection{
+        width: 524px;
+        height: 38px;
+    }
+    .title__network{
+        width: 467px;
+        height: 24px;
+        padding: 0;
+    }
+    .title__network__item{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 3px;
+    }
+}
+
+@media (min-width:1024px){
+    .title{
+        height: 368px;
+    }
+    .title__div{
+
+    }
+    .title__profile{
+        width: 300px;
+        height: 300px;
+        
+    }
+    .title__container{
+        width: 751px;
+        height: 256px;
+        padding: 30px;
+        justify-content: center;
+    }
+    .title__bio{
+        font-size: 50px;
+        width: 754px;
+        height: 52px;
+    }
+    .title__subsection{
+        font-size: 22px;
+        margin-top: 70px;
+        width: 751px;
+        padding: 10px;
+
+    }
+    .title__network{
+
+    }
+    .title__network__item{
+
+    }
+
+}
+
